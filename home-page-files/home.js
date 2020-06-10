@@ -13,6 +13,6 @@ function changeWebPage() {
 	} else if (zipcode === "94538") {
 		window.location.assign("../zip-code-files/94538.html");
 	} else {
-		print("Error");
+		window.location.assign("error.html");
 	}
 }
