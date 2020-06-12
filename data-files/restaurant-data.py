@@ -4,3 +4,4 @@ print("Connecticut restarant data retrieved from: https://www.yelp.com/search?fi
 print("Salt Lake City, Utah, restaurant data retrieved from: https://www.yelp.com/search?find_desc=salt%20lake&find_loc=utah")
 print("Anchorage, Alaska, restaurant data retrieved from: https://www.yelp.com/search?find_desc=anchorage&find_loc=alaska")
 print("New York City, NY, restaurant data retrieved from: https://www.yelp.com/search?find_desc=&find_loc=New%20York%2C%20NY")
+print("Cedar City, UT, restaurant data retreived from: https://www.yelp.com/search?find_desc=cedar%20city&find_loc=utah")
