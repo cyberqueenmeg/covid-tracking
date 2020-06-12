@@ -4,3 +4,4 @@ print("Connecticut case data pulled from: https://www.nbcconnecticut.com/news/co
 print("Utah case data pulled from: https://coronavirus.utah.gov/case-counts/")
 print("Utah-Salt Lake County data pulled from: https://slco.org/covid-19/map/")
 print("Alaska case data pulled from: https://coronavirus-response-alaska-dhss.hub.arcgis.com/")
+print("New York State case data pulled from: https://covid19tracker.health.ny.gov/views/NYS-COVID19-Tracker/NYSDOHCOVID-19Tracker-Map?%3Aembed=yes&%3Atoolbar=no&%3Atabs=n")
