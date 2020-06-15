@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-  background-image: linear-gradient(to right, rgba(255,204,0,0.5), rgba(15,82,186,0.5));  
+  background-image: linear-gradient(to right, rgba(255,204,0,1), rgba(15,82,186,1));  
 }
 
 button {
