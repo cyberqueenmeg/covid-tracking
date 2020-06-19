@@ -4,4 +4,4 @@
 
 # This application was programmed in HTML, CSS, JavaScript, and Python. 
 
-# This application was programmed by Megan Howell, Chloe Rozalsky, Anjali Prabhu, Oceana Covington, Adena Russel, Ayman Fatima, Stephanie Yen, and Donna Prince working for LITAS for Girls COVID-19 Projects, led by Anvita Gupta. 
+# This application was programmed by Megan Howell, Chloe Rozalsky, Anjali Prabhu, Oceana Covington, and Adena Russel working for LITAS for Girls COVID-19 Projects, led by Anvita Gupta. 
