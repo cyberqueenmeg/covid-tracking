@@ -10,7 +10,7 @@ body {
 button {
   background-color: white;
   color: rgb(128, 36, 36);
-  font-size: 8px
+  font-size: 7px
   display: inline-block;
-  padding: 8px 14px;
+  padding: 6px 11px;
 }
