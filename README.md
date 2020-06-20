@@ -1,4 +1,4 @@
-# COVID Zip Code Decoder
+# COVID-19 Zip Code Decoder
 
 # The purpose of this web application is to provide users with data regarding restaurant hours/closures in their area, how many cases of COVID-19 are in their zip code, and information from their governor and mayor's twitter account. 
 
