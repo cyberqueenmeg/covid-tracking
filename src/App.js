@@ -2,6 +2,10 @@ import React from "react";
 import "./App.css";
 
 function App() {
+   const handleClick = () => {
+      alert("you clicked me!");
+   };
+
    return (
       <div className="App">
          <h3>Input Your ZIP Code</h3>
@@ -10,7 +14,7 @@ function App() {
             type="button"
             id="submit"
             value="Submit"
-            onclick="alert('you clicked me!')"
+            onClick={handleClick}
          />
       </div>
    );
