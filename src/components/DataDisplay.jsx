@@ -5,7 +5,7 @@ function DataDisplay({ zipCode, data: { cases, extraInfo } }) {
 
    return (
       <div className="data-display">
-         <h1> Information for Residents in 06903 </h1>
+         <h1>Information for Residents in {zipCode}</h1>
          <a className="cases" href={cases.link}>
             COVID-19 Cases for {cases.title}
          </a>
