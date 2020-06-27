@@ -5,7 +5,7 @@ import AREA_DATA from "./data/zip-codes";
 import "./App.css";
 
 function App() {
-   const [zipCode, setZipCode] = useState("06903");
+   const [zipCode, setZipCode] = useState();
    const [data, setData] = useState();
 
    useEffect(() => {
