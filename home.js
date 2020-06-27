@@ -38,7 +38,7 @@ function changeWebPage() {
 	} else if (zipcode === "85028") {
 		window.location.assign("../zip-code-files/85028.html");
 	} else if (zipcode === "85032") {
-		window.location.assign("../zip-code-files/85032.html");
+		window.location.assign("85032.html");
 	} else if (zipcode === "85254") {
 		window.location.assign("../zip-code-files/85254.html");
 	} else if (zipcode === "87111") {
