@@ -3,7 +3,8 @@ import React, { useState } from "react";
 function InputForm({ setZipCode }) {
    const [input, setInput] = useState("");
 
-   const handleSubmit = () => {
+   const handleSubmit = (event) => {
+      event.preventDefault();
       setZipCode(input);
    };
 
@@ -12,7 +13,7 @@ function InputForm({ setZipCode }) {
    };
 
    return (
-      <div className="input-form">
+      <form className="input-form" onSubmit={handleSubmit}>
          <h3>Input Your ZIP Code</h3>
          <input
             type="text"
@@ -21,13 +22,8 @@ function InputForm({ setZipCode }) {
             onChange={handleChange}
             value={input}
          />
-         <input
-            type="button"
-            id="submit"
-            value="Submit"
-            onClick={handleSubmit}
-         />
-      </div>
+         <button type="submit">Submit</button>
+      </form>
    );
 }
 
