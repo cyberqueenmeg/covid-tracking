@@ -9,6 +9,8 @@ function changeWebPage() {
       window.location.assign("06903.html");
    } else if (zipcode === "08701") {
       window.location.assign("08701.html");
+   } else if (zipcode === "10458") {
+      window.location.assign("10458.html");
    } else if (zipcode === "19120") {
       window.location.assign("19120.html");
    } else if (zipcode === "20175") {
