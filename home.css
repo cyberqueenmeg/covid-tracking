@@ -1,0 +1,24 @@
+h1 {
+  color: white;
+}
+
+h3 {
+  color: rgb(64, 78, 77);
+}
+
+body {
+   background-image: linear-gradient(to right, rgb(255,204,70), rgb(255, 241, 125), rgb(67, 188, 205), rgb(75,85,180)); 
+}
+
+text {
+  border-color: rgb(64, 78, 77);
+}
+
+button {
+  color: rgb(64, 78, 77);
+  border-color: rgb(64, 78, 77);
+  background-color: white;
+  font-size: 7px
+  display: inline-block;
+  padding: 6px 11px;
+}
