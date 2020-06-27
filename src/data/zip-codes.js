@@ -33,9 +33,12 @@ export default {
       ],
    },
    "06903": {
-      cases:
-         "https://www.nytimes.com/interactive/2020/us/connecticut-coronavirus-cases.html",
-      links: [
+      cases: {
+         title: "Connecticut",
+         link:
+            "https://www.nytimes.com/interactive/2020/us/connecticut-coronavirus-cases.html",
+      },
+      extraInfo: [
          {
             title: "Stamford Government's Twitter",
             link:

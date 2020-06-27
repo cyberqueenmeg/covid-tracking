@@ -12,7 +12,7 @@ function InputForm({ setZipCode }) {
    };
 
    return (
-      <>
+      <div className="input-form">
          <h3>Input Your ZIP Code</h3>
          <input
             type="text"
@@ -27,7 +27,7 @@ function InputForm({ setZipCode }) {
             value="Submit"
             onClick={handleSubmit}
          />
-      </>
+      </div>
    );
 }
 
