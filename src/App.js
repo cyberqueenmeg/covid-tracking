@@ -1,21 +1,14 @@
-import React from "react";
+import React, { useState, useContext } from "react";
+import InputForm from "./components/InputForm";
 import "./App.css";
 
 function App() {
-   const handleClick = () => {
-      alert("you clicked me!");
-   };
+   const [zipCode, setZipCode] = useState();
 
    return (
       <div className="App">
-         <h3>Input Your ZIP Code</h3>
-         <input type="text" id="zip-code" placeholder="Input your ZIP Code" />
-         <input
-            type="button"
-            id="submit"
-            value="Submit"
-            onClick={handleClick}
-         />
+         <InputForm setZipCode={setZipCode} />
+         <h1>ZIP Code: {zipCode}</h1>
       </div>
    );
 }
